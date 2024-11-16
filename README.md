@@ -22,12 +22,12 @@ A beautiful, responsive, and animated CV/Resume theme with dark/light mode suppo
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/xr3less/modern-cv-theme.git
+git clone https://github.com/xr3less/modern-cv.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd modern-cv-theme
+cd modern-cv
 ```
 
 3. Open `index.html` in your browser or use a local server.
@@ -79,4 +79,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 xr3less - [@xr3less](https://github.com/xr3less)
 
-Project Link: [https://github.com/xr3less/modern-cv-theme](https://github.com/xr3less/modern-cv)
+Project Link: [https://github.com/xr3less/modern-cv](https://github.com/xr3less/modern-cv)
