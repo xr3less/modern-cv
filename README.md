@@ -13,9 +13,10 @@ A beautiful, responsive, and animated CV/Resume theme with dark/light mode suppo
 - 🔧 Easy to customize
 - 📦 No dependencies (except Font Awesome for icons)
 
-## 🚀 Live Demo
+## 🚀 Gallery
 
-[View Live Demo](#) <!-- Add your demo link here -->
+![resim](https://github.com/user-attachments/assets/ecd5b124-680d-4484-9a8a-8864eddb14bd)
+
 
 ## 📥 Installation
 
