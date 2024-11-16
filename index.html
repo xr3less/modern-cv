@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <input type="checkbox" id="theme-toggle" class="theme-input" onchange="document.body.setAttribute('data-theme', this.checked ? 'dark' : 'light')">
+    <div class="theme-container">
+        <label for="theme-toggle" class="theme-label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </label>
+    </div>
+    
+    <main class="cv-container">
+        <header class="profile-section">
+            <div class="profile-image">
+                <i class="fas fa-user"></i>
+            </div>
+            <h1>John Doe</h1>
+            <h2>Senior Software Developer</h2>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </header>
+
+        <section class="about-section">
+            <h3><i class="fas fa-user-circle"></i> About Me</h3>
+            <p>Passionate software developer with 5+ years of experience in building scalable web applications. Focused on clean code and modern technologies.</p>
+        </section>
+
+        <section class="skills-section">
+            <h3><i class="fas fa-code"></i> Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+                <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+                <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+                <div class="skill-item"><i class="fab fa-react"></i> React</div>
+                <div class="skill-item"><i class="fab fa-node"></i> Node.js</div>
+                <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+            </div>
+        </section>
+
+        <section class="experience-section">
+            <h3><i class="fas fa-briefcase"></i> Experience</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2020 - Present</div>
+                    <div class="timeline-content">
+                        <h4>Senior Developer</h4>
+                        <p>Tech Corp Inc.</p>
+                        <ul>
+                            <li>Led team of 5 developers</li>
+                            <li>Implemented microservices architecture</li>
+                            <li>Reduced loading time by 40%</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - 2020</div>
+                    <div class="timeline-content">
+                        <h4>Full Stack Developer</h4>
+                        <p>Digital Solutions Ltd.</p>
+                        <ul>
+                            <li>Developed e-commerce platform</li>
+                            <li>Optimized database queries</li>
+                            <li>Implemented CI/CD pipeline</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="education-section">
+            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+            <div class="education-item">
+                <h4>Master in Computer Science</h4>
+                <p>Tech University (2016-2018)</p>
+            </div>
+            <div class="education-item">
+                <h4>Bachelor in Software Engineering</h4>
+                <p>Code College (2012-2016)</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h3><i class="fas fa-envelope"></i> Contact</h3>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> john.doe@email.com</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
